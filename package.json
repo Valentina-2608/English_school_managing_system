@@ -1,0 +1,16 @@
+{
+  "name": "english_school_managing_system",
+  "version": "1.0.0",
+  "description": "English school managing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^1.18.0",
+    "firebase": "^12.14.0"
+  }
+}
