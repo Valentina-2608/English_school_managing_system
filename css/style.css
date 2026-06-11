@@ -7,4 +7,6 @@
     background-color:lightgray;
     margin:0 auto;
     position:relative;
+    display: flex;
+    flex-direction: row;
 }
