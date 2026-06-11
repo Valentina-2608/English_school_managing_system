@@ -45,7 +45,44 @@ nav{width:50%;
 height:100px;
 background-color: red;}
 
-.block_buttons{width:30%;
+.block_buttons{width:20%;
 height:100px;
-background-color:green;}
+display: flex;
+align-items: center;
+justify-content: space-around;}
 
+.block_buttons a{
+    text-decoration: none;
+    color:white;
+}
+.block_buttons a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+#btn_sign{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+}
+
+#btn_sign:hover{
+    cursor: pointer;
+}
+
+#btn_login{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+}
+
+#btn_login:hover{
+    cursor: pointer;
+}
