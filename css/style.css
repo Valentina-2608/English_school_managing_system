@@ -43,7 +43,22 @@ align-items: center;}
 
 nav{width:60%;
 height:100px;
-background-color: red;}
+display: flex;
+align-items: center;
+justify-content:center;}
+
+
+ul{width:80%;
+display: inline-flex;
+justify-content: space-around;}
+
+li{list-style-type: none;}
+
+li>a{text-decoration: none;
+
+font-size:18px;
+color:black;}
+
 
 .block_buttons{width:20%;
 height:100px;
