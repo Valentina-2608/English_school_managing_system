@@ -223,3 +223,13 @@ text-align: center;}
     padding-top: 10px;
 
 }
+
+.block4_elements{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkcyan;
+}
