@@ -240,3 +240,24 @@ margin-top: 50px;
 background-color: #ECFAFF;
 display:flex;
 flex-direction: row;}
+
+
+.info3_block1{
+    width: 60%;
+    height:100px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+}
+
+.info3_image{width:20%;
+display: flex;
+justify-content: end;}
+
+.info3_image>img{width:50%}
+
+.info3_text{width:80%;
+font-size: 18px;
+font-weight: bold;
+display: flex;
+justify-content:start;}
