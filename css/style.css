@@ -260,3 +260,21 @@ font-size: 18px;
 font-weight: bold;
 display: flex;
 justify-content:start;}
+
+
+.info3_block2{
+    width: 40%;
+    height:100px;
+    display: flex;
+    align-items: center;
+}
+
+.start{width:40%;
+height:27px;
+padding: 10px;
+background-color: darkblue;
+border-radius: 10px;}
+
+.start>a{
+    color:white;
+}
