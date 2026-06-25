@@ -166,7 +166,6 @@ flex-direction: column;}
 
 .block4{width:45%;
 height:250px;
-background-color:lightpink;
 display: flex;
 flex-direction: column;}
 
@@ -231,5 +230,4 @@ text-align: center;}
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: darkcyan;
 }
