@@ -276,3 +276,15 @@ border-radius: 10px;}
 .start>a{
     color:white;
 }
+
+
+/* admin.html*/
+.main1{
+    width:100%;
+    max-width:1200px;
+    height:1000px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
