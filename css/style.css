@@ -317,4 +317,6 @@ font-style: italic;}
     height: 800px;
     background-color: #ECFAFF;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
