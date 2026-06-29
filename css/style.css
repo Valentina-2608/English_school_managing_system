@@ -341,13 +341,13 @@ font-style: italic;}
     appearance: none;
 }
 
-.tab_elem > label{
-    display: inline-flex;
-    align-items: center;
+.content_1_tabs label{
+    align-items: left;
     justify-content:space-around;
-    margin: -1px -5px -1px 0;
     color:darkblue;
     border:none;
+    margin-left: 30px;
+    margin-top: 40px;
     cursor: pointer;
     font-size:22px;
     font-weight:bold;
@@ -377,8 +377,9 @@ font-style: italic;}
     position: absolute;
     top:200px;
     left:450px;
-    height:600px;
-    background-color: red;
+    height:700px;
+    border-radius:20px ;
+    background-color:white;
 }
 
 #tab_1:checked ~ #admin_dashboard,
