@@ -387,4 +387,5 @@ font-style: italic;}
 #tab_3:checked ~ #admin_teachers,
 #tab_4:checked ~ #admin_schedule,
 #tab_5:checked ~ #admin_courses
-{ display: block;}
+{ display: flex;
+justify-content: center;}
