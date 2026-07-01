@@ -389,3 +389,54 @@ font-style: italic;}
 #tab_5:checked ~ #admin_courses
 { display: flex;
 justify-content: center;}
+
+
+#form_students{
+    width:90%;
+    height:540px;
+    border:2px solid darkblue;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+h3{text-align: center;}
+
+#form_students h3{
+    color:darkred;
+}
+
+#form_students .label_1{
+    color:black;
+    font-size:16px;
+    margin-bottom: 5px;
+}
+
+
+#form_students input[type="text"]{
+    width:50%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#form_students input[type="tel"]{
+    width:50%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+#add_students{width:20%;
+padding:10px;
+background-color:darkred;
+color:white;
+border:none;
+border-radius: 5px;
+margin-left: 30px;
+margin-top: 30px;}
+
+#add_students:hover{
+    cursor: pointer;
+}
