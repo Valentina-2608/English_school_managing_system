@@ -498,3 +498,49 @@ margin-top: 30px;}
 #add_teacher:hover{
     cursor: pointer;
 }
+
+
+
+#form_courses{
+    width:90%;
+    height:550px;
+    border:2px solid darkblue;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+#form_courses h3{
+    color:darkred;
+}
+
+#form_courses .label_1{
+    color:black;
+    font-size:16px;
+    margin-bottom: 5px;
+}
+
+
+#form_courses input[type="text"]{
+    width:50%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+
+#add_course{width:20%;
+padding:10px;
+background-color:darkred;
+color:white;
+border:none;
+border-radius: 5px;
+margin-left: 30px;
+margin-top: 30px;}
+
+#add_course:hover{
+    cursor: pointer;
+}
