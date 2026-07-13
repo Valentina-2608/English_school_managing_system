@@ -720,3 +720,42 @@ margin-top: 30px;}
     font-size: 14px;
     display: none;
 }
+
+
+.buttons2{
+    width:100%;
+    height:35px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#btn_sign_up{
+	width:35%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+}
+
+#btn_sign_up:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#233048;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
