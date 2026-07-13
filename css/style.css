@@ -642,11 +642,11 @@ margin-top: 30px;}
 
 .container2_form{
     width:100%;
-    height:550px;
+    height:640px;
     background-color: coral;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 
 }
 
@@ -656,6 +656,7 @@ margin-top: 30px;}
     background-color: azure;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     
 }
 
