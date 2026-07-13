@@ -24,7 +24,30 @@
 			<div class="container2_caption">Sign up to managing system</div>
 			<div class="container2_form">
 				<form id="form_sign">
-					
+					<div class="form_elem">
+               			<label for="first_name">First name<sup>*</sup></label><br>
+                		<input type="text" placeholder="First name" name="first_name" id="first_name" required autocomplete="on"><br>
+                		<div id="first_name_error" class="error_message">First name must contains from 3 to 20 characters</div>
+            		</div>
+
+					<div class="form_elem">
+                		<label for="last_name">Last name<sup>*</sup></label><br>
+                		<input type="text" placeholder="Last name" name="last_name" id="last_name" required autocomplete="on"><br>
+                		<div id="last_name_error" class="error_message">Last name must contains from 5 to 25 characters</div>
+            		</div>
+
+					<div class="form_elem">
+               			<label for="user_email">Your email<sup>*</sup></label><br>
+                		<input type="email" placeholder="Email adress" name="password" id="user_email" required autocomplete="on"><br>
+                		<div id="email_error" class="error_message">Email must contains from 5 to 30 characters, including @</div>
+            		</div>
+
+					<div class="form_input">
+               			<label for="user_password">Create password<sup>*</sup></label><br>
+                		<input type="password" placeholder="Password" name="password" id="user_password" required autocomplete="on"><br>
+                		<div id="password_error" class="error_message">Password must contains from 8 to 30 characters(letters and numbers)</div>
+           			</div>
+
 				</form>
 				
 			</div>
