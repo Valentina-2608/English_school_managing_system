@@ -661,7 +661,7 @@ margin-top: 30px;}
 }
 
 .form_elem{width:100%;
-    height: 135px;
+    height: 125px;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -701,18 +701,22 @@ margin-top: 30px;}
 
 #first_name_error{
     font-size: 14px;
+    display: none;
 }
 
 
 #last_name_error{
     font-size: 14px;
+    display: none;
 }
 
 #email_error{
     font-size: 14px;
+    display: none;
 }
 
 
 #password_error{
     font-size: 14px;
+    display: none;
 }
