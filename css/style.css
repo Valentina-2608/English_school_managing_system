@@ -661,7 +661,7 @@ margin-top: 30px;}
 }
 
 .form_elem{width:100%;
-    height: 150px;
+    height: 135px;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -669,6 +669,7 @@ margin-top: 30px;}
 
 #form_sign label{
     font-size:16px;
+    font-weight: bold;
     color:#233048;
 }
 
