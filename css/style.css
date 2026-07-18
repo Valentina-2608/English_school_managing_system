@@ -801,7 +801,7 @@ margin-top: 30px;}
     border-radius: 10px;
     border:5px solid #233048;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
