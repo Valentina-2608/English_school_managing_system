@@ -797,8 +797,9 @@ margin-top: 30px;}
 .container4{
     width:50%;
     height:500px;
-    background-color: aliceblue;;
-
+    background-color: aliceblue;
     border-radius: 10px;
     border:5px solid #233048;
+    display: flex;
+    flex-direction: row;
 }
