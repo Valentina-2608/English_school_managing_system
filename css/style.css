@@ -789,6 +789,8 @@ margin-top: 30px;}
     display: flex;
     flex-direction: row;
     background-color:#7C95B6;
+    align-items: center;
+    justify-content: center;
 }
 
 
