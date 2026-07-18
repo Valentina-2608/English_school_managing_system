@@ -836,3 +836,29 @@ margin-top: 30px;}
     display: flex;
     flex-direction: column;
 }
+
+#form_login label{
+    font-size:16px;
+    font-weight: bold;
+    color:#233048;
+}
+
+
+#form_login input[type="email"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+
+#form_login input[type="password"]{
+	width:90%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_login input::placeholder{
+    color:gray;
+}
