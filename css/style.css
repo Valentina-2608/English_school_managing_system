@@ -813,7 +813,6 @@ margin-top: 30px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: burlywood;
 }
 
 
@@ -824,8 +823,7 @@ margin-top: 30px;}
     display: flex;
     justify-content: center;
     align-items: start;
-    background-color:darksalmon;
-
+    margin-top: 20px;
 }
 
 
