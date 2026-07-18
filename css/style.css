@@ -877,3 +877,26 @@ margin-top: 30px;}
 #btn_log_in:hover{
 	cursor: pointer;
 }
+
+
+.container4_info{
+    width: 100%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container4_text{
+    width: 50%;
+    height:50px;
+    text-align: center;
+}
+
+
+.container4_link{
+    width: 50%;
+    height:50px;
+    text-align: center;
+}
