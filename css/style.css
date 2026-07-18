@@ -827,3 +827,12 @@ margin-top: 30px;}
     background-color:darksalmon;
 
 }
+
+
+#form_login{
+    width:80%;
+    height:300px;
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+}
