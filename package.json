@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^1.18.0",
-    "firebase": "^12.14.0"
+    "firebase": "^12.14.0",
+    "live-reload": "^1.1.1",
+    "livereload-js": "^4.0.2"
   }
 }
