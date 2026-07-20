@@ -393,7 +393,7 @@ justify-content: center;}
 
 #form_students{
     width:90%;
-    height:540px;
+    height:630px;
     border:2px solid darkblue;
     border-radius: 10px;
     margin-top: 40px;
@@ -422,6 +422,12 @@ h3{text-align: center;}
 }
 
 #form_students input[type="tel"]{
+    width:50%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#form_students input[type="email"]{
     width:50%;
     margin-left: 30px;
     padding: 5px;
