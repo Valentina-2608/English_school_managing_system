@@ -42,7 +42,8 @@ form_students.addEventListener('submit', (e) => {
       };
      addDoc(dbRef, data)
     .then(()=>{
-      alert('Student was added successfully')
+      alert('Student was added successfully');
+      location.reload(); 
     })
     .catch((error)=>{
       alert('Error');
@@ -81,7 +82,8 @@ form_courses.addEventListener('submit', (e) => {
       };
      addDoc(dbRef, data)
     .then(()=>{
-      alert('Course was added successfully')
+      alert('Course was added successfully');
+      location.reload(); 
     })
     .catch((error)=>{
       alert('Error');
