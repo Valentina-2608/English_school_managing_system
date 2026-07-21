@@ -89,3 +89,38 @@ form_courses.addEventListener('submit', (e) => {
     });
 
 })
+
+
+
+/* Add information about English teachers to Firestore Database */
+
+
+let form_teachers = document.getElementById('form_teachers');
+
+form_teachers.addEventListener('submit', (e) => {
+  e.preventDefault();
+  var teacherFirstName = document.getElementById('teacher_first_name').value;
+  var teacherLastName = document.getElementById('teacher_last_name').value;
+  var teacherPhone = document.getElementById('teacher_phone').value;
+  var teacherEmail = document.getElementById('teacher_email').value;
+  var teacherSpecialization = document.getElementById('teacher_specialization').value;
+  
+  const dbRef = collection(db, 'Teachers')
+    const data = {
+        teacher_first_name: teacherFirstName,
+        teacher_last_name: teacherLastName,
+        teacher_phone: teacherPhone,
+        teacher_email: teacherEmail,
+        teacher_specialization: teacherSpecialization
+      };
+     addDoc(dbRef, data)
+    .then(()=>{
+      alert('Teacher was added successfully');
+      location.reload(); 
+    })
+    .catch((error)=>{
+      alert('Error');
+      console.error(error);
+    });
+
+})
