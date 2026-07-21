@@ -55,3 +55,37 @@ form_students.addEventListener('submit', (e) => {
 
 
 })
+
+
+
+/* Add information about English courses to Firestore Database */
+
+
+let form_courses = document.getElementById('form_courses');
+
+form_courses.addEventListener('submit', (e) => {
+  e.preventDefault();
+  var courseName = document.getElementById('course_name').value;
+  var courseLevel = document.getElementById('course_level').value;
+  var courseDuration= document.getElementById('course_duration').value;
+  var coursePrice = document.getElementById('course_price').value;
+  var courseTeacher = document.getElementById('course_teacher').value;
+  
+  const dbRef = collection(db, 'Courses')
+    const data = {
+        сourse_name: courseName,
+        course_level: courseLevel,
+        course_duration: courseDuration,
+        course_price: coursePrice,
+        course_teacher: courseTeacher
+      };
+     addDoc(dbRef, data)
+    .then(()=>{
+      alert('Course was added successfully')
+    })
+    .catch((error)=>{
+      alert('Error');
+      console.error(error);
+    });
+
+})
