@@ -552,6 +552,13 @@ margin-top: 30px;}
 }
 
 
+.block_teachers{
+    width:80%;
+    height:30px;
+    padding:20px;
+    font-weight: bold;
+}
+
 /* sign_up.html */
 
 .main2{
