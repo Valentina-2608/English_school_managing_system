@@ -807,6 +807,13 @@ margin-top: 30px;}
 }
 
 
+#form_sign #role{
+	width:95%;
+	height: 45px;
+	border:1px solid #C6BDB6;
+}
+
+
 /* log_in.html */
 
 .container3{
