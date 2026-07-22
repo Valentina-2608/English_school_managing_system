@@ -33,13 +33,14 @@ const firebaseConfig = {
   var last_name_error = document.getElementById('last_name_error');
   var email_error = document.getElementById('email_error');
   var password_error = document.getElementById('password_error');
-
+  var role =  document.getElementById('role');
 
   function registerUser(){
     var first_name = document.getElementById('first_name').value;
     var last_name = document.getElementById('last_name').value;
     var email = document.getElementById('user_email').value;
     var password =  document.getElementById('user_password').value;
+    var role =  document.getElementById('role').value;
 
     createUserWithEmailAndPassword(auth, email, password)
           .then((userCredential) => {
@@ -51,12 +52,24 @@ const firebaseConfig = {
                 last_name:last_name,
                 email: email,
                 password:password,
+                role:role
                 
           })
         .then(() => {
           // Data saved successfully!
-            alert('User was added successfully')
-            window.location.replace("admin.html");
+            alert('User was added successfully');
+            if (role === 'admin'){
+              window.location.replace("admin.html");
+            }
+
+            if (role === 'teacher'){
+              window.location.replace("teachers_page.html");
+            }
+            
+            if (role === 'student'){
+              window.location.replace("students_page.html");
+            }
+
         })
         .catch((error) => {
           // The write failed...
