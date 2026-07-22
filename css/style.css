@@ -566,6 +566,14 @@ margin-top: 30px;}
     font-weight: bold;
 }
 
+
+.block_courses{
+    width:80%;
+    height:30px;
+    padding:20px;
+    font-weight: bold;
+}
+
 /* sign_up.html */
 
 .main2{
