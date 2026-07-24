@@ -945,7 +945,7 @@ margin-top: 30px;}
     background-color: #ECFAFF;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .content_2_info{
@@ -984,4 +984,13 @@ margin-top: 30px;}
 
 #show_students:hover{
     cursor: pointer;
+}
+
+.block_students{
+    width:96%;
+    height:550px;
+    display: flex;
+    background-color: chartreuse;
+    margin-top: 20px;
+    
 }
