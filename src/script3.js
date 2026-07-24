@@ -31,14 +31,14 @@ form_students.addEventListener('submit', (e) => {
   var studentLastName = document.getElementById('student_last_name').value;
   var studentPhone = document.getElementById('student_phone').value;
   var studentEmail = document.getElementById('student_email').value;
-  var studentGroup = document.getElementById('student_group').value;
+  var studentCourse = document.getElementById('student_course').value;
   const dbRef = collection(db, 'Students')
     const data = {
         student_first_name: studentFirstName,
         student_last_name: studentLastName,
         student_phone: studentPhone,
         student_email: studentEmail,
-        student_group: studentGroup
+        student_course: studentCourse
       };
      addDoc(dbRef, data)
     .then(()=>{
