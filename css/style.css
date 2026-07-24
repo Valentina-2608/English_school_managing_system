@@ -947,3 +947,41 @@ margin-top: 30px;}
     display: flex;
     flex-direction: row;
 }
+
+.content_2_info{
+    width:100%;
+    height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content_2_caption{
+    width:60%;
+    font-size:30px;
+    text-align: center;
+    font-style: italic;
+    color:darkred;
+    font-weight: bold;
+}
+
+.content_2_button{
+    width:30%;
+}
+
+#show_students{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+}
+
+#show_students:hover{
+    cursor: pointer;
+}
