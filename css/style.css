@@ -932,3 +932,18 @@ margin-top: 30px;}
     height:50px;
     text-align: center;
 }
+
+
+
+/* student.html */
+
+.content_2{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    height: 800px;
+    background-color: #ECFAFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
