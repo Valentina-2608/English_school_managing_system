@@ -1008,3 +1008,24 @@ margin-top: 30px;}
     border-bottom: 1px solid darkblue;
     
 }
+
+.new_student_first_name{
+    width:13%;
+    padding-left: 10px;
+}
+
+.new_student_last_name{
+    width:15%;
+}
+
+.new_student_phone{
+    width:15%;
+}
+
+.new_student_email{
+    width:25%;
+}
+
+.new_student_course{
+    width:30%;
+}
