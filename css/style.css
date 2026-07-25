@@ -1027,3 +1027,38 @@ margin-top: 30px;}
 .new_student_course{
     width:30%;
 }
+
+
+
+.rectangle{
+    width:100%;
+    height:30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color:#415A77;
+    color:white;
+    
+}
+
+.student_first_name{
+    width:13%;
+    padding-left: 10px;
+}
+
+.student_last_name{
+    width:15%;
+}
+
+.student_phone{
+    width:15%;
+}
+
+.student_email{
+    width:25%;
+}
+
+.student_course{
+    width:30%;
+}
