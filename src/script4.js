@@ -58,10 +58,14 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
       block_new_student.appendChild(new_student_first_name);
       block_new_student.appendChild(new_student_last_name);
       block_new_student.appendChild(new_student_phone);
-      block_new_student.appendChild(new_student_course);
+      block_new_student.appendChild(new_student_email);
       block_new_student.appendChild(new_student_course);
      
       block_students.appendChild(block_new_student);
+
+      setTimeout(()=>{
+        location.reload()
+      },50000)
 
       
     })
