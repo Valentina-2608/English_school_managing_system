@@ -1087,3 +1087,42 @@ margin-top: 30px;}
     display: flex;
     flex-direction: column;
 }
+
+
+.content_3_info{
+    width:100%;
+    height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content_3_caption{
+    width:60%;
+    font-size:30px;
+    text-align: center;
+    font-style: italic;
+    color:darkred;
+    font-weight: bold;
+}
+
+.content_3_button{
+    width:30%;
+}
+
+#show_courses{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+}
+
+#show_courses:hover{
+    cursor: pointer;
+}
