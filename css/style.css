@@ -1137,3 +1137,25 @@ margin-top: 30px;}
     background-color:cornsilk;
     
 }
+
+
+.course{
+    width:30%;
+    padding-left: 10px;
+}
+
+.course_level{
+    width:15%;
+}
+
+.course_duration{
+    width:15%;
+}
+
+.course_price{
+    width:15%;
+}
+
+.course_teacher{
+    width:25%;
+}
