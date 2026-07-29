@@ -1126,3 +1126,14 @@ margin-top: 30px;}
 #show_courses:hover{
     cursor: pointer;
 }
+
+.block_courses{
+    width:96%;
+    height:800px;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:cornsilk;
+    
+}
