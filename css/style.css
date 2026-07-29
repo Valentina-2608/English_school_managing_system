@@ -1062,3 +1062,17 @@ margin-top: 30px;}
 .student_course{
     width:30%;
 }
+
+
+
+/* courses.html */
+
+.main3{
+    width:100%;
+    max-width:1200px;
+    height:1200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color:yellow;
+}
