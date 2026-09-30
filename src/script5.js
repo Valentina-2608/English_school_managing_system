@@ -26,7 +26,7 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
 
   let block_courses = document.querySelector('.block_courses');
   let show_courses = document.getElementById('show_courses');
-  show_students.addEventListener('click', showAllCourses);
+  show_courses.addEventListener('click', showAllCourses);
 
   function showAllCourses(){
       onSnapshot(dbRef, docsSnap => {
@@ -34,11 +34,6 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
         let block_new_course = document.createElement('div');
         block_new_course.classList.add('block_new_course');
   
-        
-        let new_course_name = document.createElement('div');
-        new_course_name.classList.add('new_course_name')
-        new_course_name.innerHTML = doc.data().course_name;
-
         let new_course_name = document.createElement('div');
         new_course_name.classList.add('new_course_name')
         new_course_name.innerHTML = doc.data().course_name;
