@@ -74,7 +74,7 @@ form_courses.addEventListener('submit', (e) => {
   
   const dbRef = collection(db, 'Courses')
     const data = {
-        сourse_name: courseName,
+        course_name: courseName,
         course_level: courseLevel,
         course_duration: courseDuration,
         course_price: coursePrice,
