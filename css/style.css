@@ -382,15 +382,6 @@ font-style: italic;}
     background-color:white;
 }
 
-#admin_students{
-    display: flex;
-    flex-direction: column;
-}
-
-#admin_teachers{
-    display: flex;
-    flex-direction: column;
-}
 
 
 #tab_1:checked ~ #admin_dashboard,
@@ -399,7 +390,9 @@ font-style: italic;}
 #tab_4:checked ~ #admin_schedule,
 #tab_5:checked ~ #admin_courses
 { display: flex;
-justify-content: center;}
+justify-content: center;
+flex-direction: column;
+}
 
 
 #form_students{
