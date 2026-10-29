@@ -991,7 +991,7 @@ margin-top: 20px;}
 }
 
 .block_students{
-    width:96%;
+    width:100%;
     height:550px;
     display: flex;
     margin-top: 20px;
@@ -1012,7 +1012,7 @@ margin-top: 20px;}
 }
 
 .new_student_first_name{
-    width:13%;
+    width:15%;
     padding-left: 10px;
 }
 
@@ -1047,8 +1047,8 @@ margin-top: 20px;}
 }
 
 .student_first_name{
-    width:13%;
-    padding-left: 10px;
+    width:15%;
+    padding-left: 20px;
 }
 
 .student_last_name{
