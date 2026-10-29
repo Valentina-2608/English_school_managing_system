@@ -387,6 +387,12 @@ font-style: italic;}
     flex-direction: column;
 }
 
+#admin_teachers{
+    display: flex;
+    flex-direction: column;
+}
+
+
 #tab_1:checked ~ #admin_dashboard,
 #tab_2:checked ~ #admin_students,
 #tab_3:checked ~ #admin_teachers,
