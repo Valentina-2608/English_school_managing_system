@@ -382,6 +382,11 @@ font-style: italic;}
     background-color:white;
 }
 
+#admin_students{
+    display: flex;
+    flex-direction: column;
+}
+
 #tab_1:checked ~ #admin_dashboard,
 #tab_2:checked ~ #admin_students,
 #tab_3:checked ~ #admin_teachers,
@@ -559,11 +564,12 @@ margin-top: 30px;}
     font-weight: bold;
 }
 
-.block_students{
+.list_students{
     width:80%;
     height:30px;
     padding:20px;
     font-weight: bold;
+    background-color: burlywood;
 }
 
 
