@@ -286,7 +286,6 @@ border-radius: 10px;}
     margin:0 auto;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
 }
 
 .caption{width:50%;
