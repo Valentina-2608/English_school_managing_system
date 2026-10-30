@@ -1214,3 +1214,35 @@ margin-top: 20px;}
 #show_teachers:hover{
     cursor: pointer;
 }
+
+.block_teachers{
+    width:100%;
+    height:550px;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.teacher_first_name{
+    width:15%;
+    padding-left: 20px;
+}
+
+.teacher_last_name{
+    width:15%;
+}
+
+.teacher_phone{
+    width:15%;
+}
+
+.teacher_email{
+    width:25%;
+}
+
+.teacher_specialization{
+    width:30%;
+}
