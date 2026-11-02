@@ -31,27 +31,28 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
   function showAllCourses(){
       onSnapshot(dbRef, docsSnap => {
       docsSnap.forEach(doc => {
+        console.log("Document data:", doc.data());
         let block_new_course = document.createElement('div');
         block_new_course.classList.add('block_new_course');
   
         let new_course_name = document.createElement('div');
-        new_course_name.classList.add('new_course_name')
-        new_course_name.innerHTML = doc.data().course_name;
+        new_course_name.classList.add('new_course_name');
+        new_course_name.innerHTML = doc.data().сourse_name;
 
         let new_course_level = document.createElement('div');
-        new_course_level.classList.add('new_course_level')
+        new_course_level.classList.add('new_course_level');
         new_course_level.innerHTML = doc.data().course_level;
   
         let new_course_duration = document.createElement('div');
-        new_course_duration.classList.add('new_course_duration')
+        new_course_duration.classList.add('new_course_duration');
         new_course_duration.innerHTML = doc.data().course_duration;
 
         let new_course_price = document.createElement('div');
-        new_course_price.classList.add('new_course_price')
+        new_course_price.classList.add('new_course_price');
         new_course_price.innerHTML = doc.data().course_price;
 
         let new_course_teacher = document.createElement('div');
-        new_course_teacher.classList.add('new_course_teacher')
+        new_course_teacher.classList.add('new_course_teacher');
         new_course_teacher.innerHTML = doc.data().course_teacher;
   
        
