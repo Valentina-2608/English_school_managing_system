@@ -1246,3 +1246,38 @@ margin-top: 20px;}
 .teacher_specialization{
     width:30%;
 }
+
+
+.block_new_teacher{
+    width:100%;
+    height:30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-bottom: 1px solid darkblue;
+    
+}
+
+.new_teacher_first_name{
+    width:15%;
+    padding-left: 10px;
+}
+
+.new_teacher_last_name{
+    width:15%;
+}
+
+.new_teacher_phone{
+    width:15%;
+}
+
+.new_teacher_email{
+    width:25%;
+}
+
+.new_teacher_specialization{
+    width:30%;
+}
+
+
