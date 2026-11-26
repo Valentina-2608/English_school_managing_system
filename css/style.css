@@ -645,6 +645,13 @@ margin-top: 20px;}
     cursor: pointer;
 }
 
+.view_schedule{
+    width:80%;
+    height:30px;
+    padding:20px;
+    font-weight: bold;
+}
+
 
 /* sign_up.html */
 
