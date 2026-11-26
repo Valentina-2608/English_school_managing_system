@@ -587,7 +587,11 @@ margin-top: 20px;}
     color:darkred;
 }
 
-
+#form_schedule .label_1{
+    color:black;
+    font-size:16px;
+    margin-bottom: 5px;
+}
 
 .list_courses{
     width:80%;
@@ -595,6 +599,19 @@ margin-top: 20px;}
     padding:20px;
     font-weight: bold;
 }
+
+#english_course{
+    width:50%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#english_teacher{
+    width:48%;
+    margin-left: 30px;
+    padding: 5px;
+}
+
 
 /* sign_up.html */
 
