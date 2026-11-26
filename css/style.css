@@ -631,6 +631,21 @@ margin-top: 20px;}
     padding: 5px;
 }
 
+
+#add_lesson{width:20%;
+padding:10px;
+background-color:darkred;
+color:white;
+border:none;
+border-radius: 5px;
+margin-left: 30px;
+margin-top: 20px;}
+
+#add_lesson:hover{
+    cursor: pointer;
+}
+
+
 /* sign_up.html */
 
 .main2{
