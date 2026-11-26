@@ -23,19 +23,53 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
   const dbRef = collection(db, 'Courses');
 
   let english_course = document.getElementById('english_course');
+  let english_teacher = document.getElementById('english_teacher');
 
-  function loadCourses(){
-    english_course.innerHTML = '<option value="">Select course</option>';
-        onSnapshot(dbRef, docsSnap => {
+  
+
+ let allCourses = [];
+
+ function loadCourses() {
+
+    english_course.innerHTML =
+        '<option value="">Select course</option>';
+
+    onSnapshot(dbRef, docsSnap => {
+
+        allCourses = [];
+
         docsSnap.forEach(doc => {
+
+            const course = doc.data();
+
+            // Save course information
+            allCourses.push({
+                id: doc.id,
+                ...course
+            });
+
             let option = document.createElement('option');
+
             option.value = doc.id;
-            option.innerHTML = doc.data().сourse_name;
+            option.textContent = course.сourse_name;
+
             english_course.appendChild(option);
-          
-        })
-    })
-}
 
-
+        });
+    });
+ }
 loadCourses();
+
+ english_course.addEventListener('change', function() {
+
+    const selectedCourse = allCourses.find(
+        course => course.id === english_course.value
+    );
+
+    if (selectedCourse) {
+        english_teacher.value = selectedCourse.course_teacher;
+    } else {
+        english_teacher.value = "";
+    }
+
+});
