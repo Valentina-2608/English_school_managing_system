@@ -1145,6 +1145,18 @@ margin-bottom: 10px;}
 
 
 
+.block_schedule{
+    width:100%;
+    height:680px;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkseagreen;
+    
+}
+
+
 /* courses.html */
 
 .main3{
