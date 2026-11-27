@@ -126,3 +126,38 @@ form_teachers.addEventListener('submit', (e) => {
     });
 
 })
+
+
+
+/* Add information about schedule to Firestore Database */
+
+
+let form_schedule = document.getElementById('form_schedule');
+
+form_schedule.addEventListener('submit', (e) => {
+  e.preventDefault();
+  var englishCourse = document.getElementById('english_course').value;
+  var englishTeacher = document.getElementById('english_teacher').value;
+  var lessonDate = document.getElementById('lesson_date').value;
+  var startLesson = document.getElementById('start_lesson').value;
+  var endLesson = document.getElementById('end_lesson').value;
+  
+  const dbRef = collection(db, 'Schedule')
+    const data = {
+        english_course: englishCourse,
+        english_teacher: englishTeacher,
+        lesson_date: lessonDate,
+        start_lesson: startLesson,
+        end_lesson: endLesson
+      };
+     addDoc(dbRef, data)
+    .then(()=>{
+      alert('Lesson was added successfully');
+      location.reload(); 
+    })
+    .catch((error)=>{
+      alert('Error');
+      console.error(error);
+    });
+
+})
